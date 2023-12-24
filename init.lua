@@ -18,7 +18,8 @@ return {
   },
 
   -- Set colorscheme to use
-  colorscheme = "astrodark",
+  -- colorscheme = "astrodark",
+  colorscheme = "onedark",
 
   -- Diagnostics configuration (for vim.diagnostics.config({...})) when diagnostics are on
   diagnostics = {
@@ -51,6 +52,16 @@ return {
     -- enable servers that you already have installed without mason
     servers = {
       -- "pyright"
+      "lexical",
+    },
+    config = {
+      lexical = function()
+        return {
+          cmd = { "/Users/alex/lexical/_build/dev/package/lexical/bin/start_lexical.sh" },
+          filetypes = { "elixir", "eelixir", "heex", "eex" },
+          root_dir = require("lspconfig.util").root_pattern("mix.exs", ".git"),
+        }
+      end,
     },
   },
 
