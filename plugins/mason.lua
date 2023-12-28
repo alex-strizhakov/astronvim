@@ -10,9 +10,9 @@ return {
         "lua_ls",
         -- web dev stuff
         "denols",
-        "cssls",
-        "html",
-        "tsserver",
+        -- "cssls",
+        -- "html",
+        -- "tsserver",
       })
     end,
   },

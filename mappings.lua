@@ -56,6 +56,7 @@ return {
       desc = "go to 2 chars",
     },
     ["<leader>fe"] = { "<cmd> Telescope resume <CR>", desc = "Telescope resume" },
+    ["<leader>ie"] = { ":e .iex.exs<CR>", desc = "Edit iex file" },
   },
   t = {
     -- setting a mapping to false will disable it
