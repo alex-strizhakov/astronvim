@@ -19,10 +19,10 @@ return {
 
   -- Set colorscheme to use
   -- colorscheme = "astrodark",
-  -- colorscheme = "onedark",
+  colorscheme = "onedark",
   -- colorscheme = "catppuccin",
   -- colorscheme = "oxocarbon",
-  colorscheme = "dracula",
+  -- colorscheme = "dracula",
   -- colorscheme = "github_dark",
   -- colorscheme = "mellow-theme",
 

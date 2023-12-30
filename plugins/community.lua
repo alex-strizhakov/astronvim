@@ -29,5 +29,22 @@ return {
       },
     },
   },
-  -- { import = "astrocommunity.completion.copilot-lua-cmp" },
+  {
+    "olimorris/onedarkpro.nvim",
+    opts = {
+
+      highlights = {
+        ["@variable.elixir"] = { fg = "#ABB2BF" },
+        ["@symbol.elixir"] = { fg = "${blue}", bold = true },
+        ["@type.elixir"] = { fg = "${red}" },
+        ["@function.call.elixir"] = { fg = "#D4D8DF" },
+        ["@constant.elixir"] = { fg = "${red}" },
+        ["@constant.builtin.elixir"] = { fg = "${blue}" },
+        ["@boolean.elixir"] = { fg = "${blue}" },
+        ["@punctuation.bracket.elixir"] = { fg = "${purple}" },
+        ["@keywotd.elixir"] = { fg = "${green}" },
+        ["@attribute.elixir"] = { fg = "${green}" },
+      },
+    },
+  },
 }
